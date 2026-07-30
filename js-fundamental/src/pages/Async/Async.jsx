@@ -3,6 +3,8 @@ import { Paper, Typography, Button,TextField } from "@mui/material";
 import "./Async.scss";
 
 function Async() {
+
+  
   const [result, setResult] = useState("");
     const [title, setTitle] = useState("");
     const [body, setBody] = useState("");
@@ -12,6 +14,7 @@ function Async() {
     setTimeout(() => {
       setResult("Callback Executed");
     }, 2000);
+  setResult("Hello Javascript");
   };
 
   // Promise

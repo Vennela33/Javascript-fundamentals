@@ -201,7 +201,7 @@ Course : ${student.course}
                 </Button>
 
                 <Button variant="contained"
-                onClick={() =>setResult(originalitems.reduce((a, b) => a + " "+b)) }>
+                onClick={() =>setResult(originalitems.reduce((a, b) => a +"-"+b)) }>
                     Reduce
                 </Button>
 

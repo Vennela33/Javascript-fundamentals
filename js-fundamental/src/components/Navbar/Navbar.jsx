@@ -12,6 +12,7 @@ function Navbar(){
                 <Button color="inherit" component={Link} to="/functions">Functions</Button>
                 <Button color="inherit" component={Link} to="/arrays">Arrays</Button>
                 <Button color="inherit" component={Link} to="/async">Async</Button>
+                <Button color="inherit" component={Link} to="/es6features">ES6 Features</Button>
             </Toolbar>
         </AppBar>
     );

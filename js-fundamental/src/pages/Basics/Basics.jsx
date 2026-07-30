@@ -8,11 +8,9 @@ import {
 } from "@mui/material";
 import "./Basics.scss";
     
-    let a=[1,2,3,4]
 
-  
-  console.log(typeof a);
-  
+
+
 function Basics() {
   
   // Data Type

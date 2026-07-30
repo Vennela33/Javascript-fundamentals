@@ -4,6 +4,7 @@ import Basics from "./pages/Basics/Basics";
 import Functions from "./pages/Functions/Functions";
 import Arrays from "./pages/Arrays/Arrays";
 import Async from "./pages/Async/Async";
+import ES6Features from "./pages/ES6Features/ES6Features";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/functions"element={<Functions />}/>
         <Route path="/arrays"element={<Arrays />}/>
         <Route path="/async"element={<Async />}/>
+        <Route path="/es6features" element={<ES6Features/>}/>
       </Routes>
     </BrowserRouter>
   );
